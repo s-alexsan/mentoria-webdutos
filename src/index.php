@@ -13,6 +13,7 @@ try {
     
     $info = $pdo->getAttribute(PDO::ATTR_SERVER_VERSION);
     echo "<p>Versão do Banco: $info</p>";
+    echo "<p>TESTANDO CONEXÃO COM O FIREBIRD - AGENDA TELEFÔNICA";
 
 } catch (PDOException $e) {
     echo "<p style='color: red;'>Erro ao conectar: " . $e->getMessage() . "</p>";
