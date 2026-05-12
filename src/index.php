@@ -12,7 +12,7 @@ try {
     echo "<p style='color: green;'>Sucesso! O PHP conseguiu se conectar ao Firebird.</p>";
     
     $info = $pdo->getAttribute(PDO::ATTR_SERVER_VERSION);
-    echo "<p>Versão do Banco: $info</p>";
+    echo "<p>Versão do Banco $info</p>";
 
 } catch (PDOException $e) {
     echo "<p style='color: red;'>Erro ao conectar: " . $e->getMessage() . "</p>";
