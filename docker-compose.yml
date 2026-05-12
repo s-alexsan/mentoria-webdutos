@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .docker/php
+    ports: ["8082:80"]
+    volumes: ["./src:/var/www/html"]
+  db:
+    image: jacobalberty/firebird:3.0
+    environment: [ISC_PASSWORD=masterkey]
+    volumes: ["./data:/firebird/data"]
