@@ -1,0 +1,148 @@
+.frame {
+  background-color: #ffffff;
+  width: 100%;
+  min-width: 657px;
+  min-height: 341px;
+  position: relative;
+}
+
+.frame .rectangle {
+  top: 57px;
+  left: 45px;
+  width: 312px;
+  height: 39px;
+  background-color: #ffffff;
+  border-color: #494770;
+  position: absolute;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.frame .div {
+  top: 129px;
+  left: 45px;
+  width: 312px;
+  height: 39px;
+  background-color: #ffffff;
+  border-color: #494770;
+  position: absolute;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.frame .rectangle-2 {
+  top: 202px;
+  left: 45px;
+  width: 312px;
+  height: 39px;
+  background-color: #ffffff;
+  border-color: #494770;
+  position: absolute;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.frame .rectangle-3 {
+  top: 274px;
+  left: 45px;
+  width: 312px;
+  height: 39px;
+  background-color: #ffffff;
+  border-color: #494770;
+  position: absolute;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.frame .text-wrapper  {
+  position: absolute;
+  top: 40px;
+  left: 45px;
+  width: 86px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #505050;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+h1{
+  top: 40px;
+  size: 16px;
+  padding-left: 42px;
+  font-family: "Inter-Regular", Helvetica;
+
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  top: 114px;
+  left: 45px;
+  width: 86px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #505050;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  top: 185px;
+  left: 45px;
+  width: 86px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #505050;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  top: 258px;
+  left: 45px;
+  width: 86px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #505050;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .boto {
+  position: absolute;
+  top: 276px;
+  left: 458px;
+  width: 166px;
+  height: 41px;
+}
+
+.frame .rectangle-4 {
+  top: 0;
+  left: 0;
+  width: 164px;
+  height: 41px;
+  background-color: #2f2c5e;
+  border-color: #6762af;
+  position: absolute;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.frame .text-wrapper-5 {
+  position: absolute;
+  top: 8px;
+  left: 13px;
+  width: 137px;
+  font-family: "Rounded Mplus 1c-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
