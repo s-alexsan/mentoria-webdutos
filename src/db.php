@@ -1,19 +1,13 @@
 <?php
 
-Class DB
+function conectar_banco()
 {
-    private $host = "db:/firebird/data/agenda.fdb";
-    private $user = "SYSDBA";
-    private $password = "masterkey";
-    
+    $host = "db:/firebird/data/agenda.fdb";
+    $user = "SYSDBA";
+    $password = "masterkey";
 
-    function conectar()
-    {
-        $pdo = new PDO("firebird:dbname=$this->host", $this->user, $this->password);
-        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        if (!$pdo) {
-            die("Falha na conexão: " . $pdo->errorInfo()[2]);
-        }
-        return $pdo;
-    }
+    $pdo = new PDO("firebird:dbname=$host", $user, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+    return $pdo;
 }
