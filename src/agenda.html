@@ -1,40 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="globals.css">
+  <title>Agenda de contatos</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="container">
+  <main class="container agenda-container">
     <div class="topo">
       <h1>Agenda de contatos</h1>
-      <button onclick="window.location.href='cadastro.html'" class="btn-cadastrar">CADASTRAR</button>
+      <a href="cadastro.html" class="btn-cadastrar">CADASTRAR</a>
     </div>
 
-    <table class="tabela">
-      <thead>
-        <tr>
-          <th>Contato</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- dados serão inseridos na tabela -->
-        <tr>
-          <td class="acoes-tabela">
-            <button class="btn-editar">EDITAR</button>
-            <button class="btn-excluir">EXCLUIR</button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+    <div class="tabela-wrapper">
+      <table class="tabela">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Endereço</th>
+            <th>Cidade</th>
+            <th>Telefone</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Cada pessoa cadastrada será exibida aqui em uma linha completa. -->
+          <!-- Os botões EDITAR e EXCLUIR serão adicionados futuramente por linha. -->
+        </tbody>
+      </table>
+    </div>
+  </main>
+
 </body>
 
-
-
-</html> 
+</html>

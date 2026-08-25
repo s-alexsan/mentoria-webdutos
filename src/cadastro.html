@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-BR">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 
@@ -25,7 +22,9 @@
 
         <div class="campo">
             <label for="cidade">Cidade</label>
-            <input id="cidade" type="text" class="input-padrao">
+            <select id="cidade" name="id_cidade" class="input-padrao" required>
+                <option value="">Selecione uma cidade</option>
+            </select>
         </div>
 
         <div class="campo">
@@ -39,6 +38,4 @@
         </div>
     </div>
 </body>
-
-
 </html>
